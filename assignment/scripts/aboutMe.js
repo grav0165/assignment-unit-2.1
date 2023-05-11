@@ -98,10 +98,16 @@ else if(pets > allowedPets) {
 let mostPets;
 if(pets > friendsPets) {
     mostPets = pets;
+    console.log('I have a zoo. Among all my friends, I have the most amount of pets at ' + mostPets + '.')
 } // pets end
 else if(pets < friendsPets) {
     mostPets = friendsPets;
+    console.log('It makes sense that my friends have the most amount of pets at ' + mostPets + '.')
 } // end friends pets
+else if (pets = friendsPets) {
+    mostPets = pets
+    console.log('Wow, we both have the same amount of pets, ' + mostPets + '!')
+}
 
 console.log(mostPets)
 
@@ -129,7 +135,7 @@ switch(luckyNumber) {
 }
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-adventurous = (true) ? console.log('Adventures are great!') : console.log('How about we stay home?');
+adventurous = (adventurous) ? console.log('Adventures are great!') : console.log('How about we stay home?');
 
 
 

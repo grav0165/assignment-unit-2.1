@@ -68,7 +68,7 @@ if(luckyNumber === 2 && adventurous) {
 } // end dice roll
 else {
     console.log('How about we go home instead of gamble everything.');
-}
+} // added extra console.log related to not meeting conditional
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
